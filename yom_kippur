@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="he">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>וידאו</title>
+  <style>
+    html,body{height:100%;margin:0;background:#fff}
+    .wrap{height:100%;display:flex;align-items:center;justify-content:center}
+    .player{width:100%;height:auto;max-width:1280px;max-height:720px}
+    video{width:100%;border:0}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="player">
+       <video autoplay controls>
+    <source src="yom kipur.mp4" type="video/mp4"
+              allowfullscreen>
+  </video>
+    </div>
+  </div>
+</body>
+</html>
